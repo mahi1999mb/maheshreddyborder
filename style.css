@@ -1,0 +1,74 @@
+/* h1{
+    border:2px  solid red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    border-radius: 2cm;
+    text-align: center;
+} */
+#one{
+    border: 2px solid;
+    height: 600px;
+    width: 600px;
+    padding: 90px;
+    background-color:palegoldenrod;
+}
+#two{
+    border: 2px solid;
+    height: 450px;
+    width: 450px;
+    padding: 80px;
+    background-color: aquamarine;
+    border-top-right-radius: 0.5cm; 
+    border-top-left-radius: 0.5cm;    
+}
+h1{
+    color: black;
+    text-align: center;
+}
+#three{
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    background-color: darkseagreen;
+    padding: 50px;
+border-style: inherit;
+
+   
+}
+h1:hover{
+    text-shadow: 2px 2px gold;
+    text-align: center;
+}
+#three:hover{
+    box-shadow: 20px 20px blueviolet;
+  
+}
+p{
+    font-size: larger;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+}
+p:hover{
+text-shadow: 4px 4px gold;
+}
+#container{
+    border: 2px solid;
+    height: 900px;
+    width: 900px;
+   padding-top: 5%;
+   padding-left: 2%;
+   padding-right: 2%;
+padding-bottom: 2%;
+    background-color: chartreuse;
+}
+img:hover{
+    background-image: url("./images/mahesh.JPG");
+    padding: 100%;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+#img{
+    background-repeat: no-repeat;
+    background-repeat: round;
+}
